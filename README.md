@@ -1,6 +1,6 @@
-# G1-HTLTag
+# Deklarierius Minimus
 
-Workingtitle: Deklarius
+Workingtitle: Deklarierius Minimus
 Short description:
 2-4 Spieler; 
 Jeder Spieler bekommt eigene Farbe; 
@@ -17,4 +17,4 @@ Playthrough-Video: ! < 100MB!
 
 Use Markdown in this readme!
 
-Otherinfos: HELLOOOOOOOOOOO BITTE LÖSCHEN
+Otherinfos:
