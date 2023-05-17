@@ -1,6 +1,6 @@
 # Deklarierius Minimus
 
-Workingtitle: Deklarierius Minimus
+Workingtitle: Deklarierius Minimus.
 Short description:
 2-4 Spieler; 
 Jeder Spieler bekommt eigene Farbe; 
