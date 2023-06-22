@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ButtonTextUpdater : MonoBehaviour
 {
   
-    //public string[] texts = {"Hallo Test","Test Hallo" }; // Eine Liste von Texten, die individuell angepasst werden können
+    //public string[] texts = {"Hallo Test","Test Hallo" }; // Eine Liste von Texten, die individuell angepasst werden k?nnen
     public Text Frage;
     public Text InputText;
   
@@ -17,9 +17,9 @@ public class ButtonTextUpdater : MonoBehaviour
 
     private void Start()
     {
-        Frage.text = "Deklariere ein If Statement welches true ausgibt wenn die Zahl a größer als die Zahl b ist";
+        Frage.text = "Deklariere ein If Statement welches true ausgibt wenn die Zahl a gr??er als die Zahl b ist";
         currentIndex = 0;
-        // Setze den anfänglichen Text des Textfeldes
+        // Setze den anf?nglichen Text des Textfeldes
         UpdateTextField();
     }
     public void NextQuestion()
@@ -42,7 +42,7 @@ public class ButtonTextUpdater : MonoBehaviour
         
         
 
-        // Aktualisiere den Index, um den nächsten Text auszuwählen
+        // Aktualisiere den Index, um den n?chsten Text auszuw?hlen
         //currentIndex = (currentIndex + 1) % texts.Length;
         Debug.Log("Hallo");
 
