@@ -14,19 +14,21 @@ public class SceneLoaderAndQuit : MonoBehaviour
         {
             loadSceneButton.onClick.AddListener(LoadScene);
         }
-        else
+       /* else
         {
             Debug.LogError("Load Scene Button not assigned.");
         }
+       */
 
         if (quitGameButton != null)
         {
             quitGameButton.onClick.AddListener(QuitGame);
         }
-        else
+        /*else
         {
             Debug.LogError("Quit Game Button not assigned.");
         }
+        */
     }
 
     public void LoadScene()
@@ -41,5 +43,10 @@ public class SceneLoaderAndQuit : MonoBehaviour
         #else
             Application.Quit();
         #endif
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
